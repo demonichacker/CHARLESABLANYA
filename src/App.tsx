@@ -131,7 +131,7 @@ function App() {
       {
         title: "MathApp: Enhance Your Math Skills",
         description: "Math skills enhancement app with two game modes and real-time scoring",
-        image: "/Portfolio/images/math.png",
+        image: "/images/math.png",
         technologies: ["Next.js", "React", "Tailwind CSS", "Jest", "React Testing Library"],
         link: "https://charles167.github.io/data-base/"
       }
@@ -254,7 +254,7 @@ function App() {
 
     {/* Profile Image */}
     <img 
-      src="/Portfolio/images/WhatsApp Image .jpg" 
+      src="/images/WhatsApp Image .jpg" 
       alt="Suvesha Upreti" 
       className="w-full h-full object-cover rounded-full"
     />
@@ -459,7 +459,7 @@ function App() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <p className="text-gray-400">Personal Email</p>
-                  <a href="charlesablanya@gmail.com" className="text-blue-400 hover:text-blue-300">
+                  <a href="mailto:charlesablanya@gmail.com" className="text-blue-400 hover:text-blue-300">
                     charlesablanya@gmail.com
                   </a>
                 </div>
