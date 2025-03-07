@@ -1,11 +1,10 @@
-
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Portfolio/', // Set this to your GitHub repo name
+  base: '/', // Set base path to '/' for Vercel root domain
   optimizeDeps: {
-    exclude: ['lucide-react'],
+    exclude: ['lucide-react'], // Optional: Keep this if needed for optimization
   },
 });
